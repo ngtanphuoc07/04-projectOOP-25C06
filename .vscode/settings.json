@@ -1,0 +1,18 @@
+{
+    // Use the CMake/Ninja/compiler that ship with the Qt installation,
+    // so nothing needs to be on the system PATH.
+    "cmake.cmakePath": "C:/Qt/Tools/CMake_64/bin/cmake.exe",
+    "cmake.generator": "Ninja",
+    "cmake.configureSettings": {
+        "CMAKE_PREFIX_PATH": "C:/Qt/6.11.1/mingw_64",
+        "CMAKE_CXX_COMPILER": "C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM": "C:/Qt/Tools/Ninja/ninja.exe"
+    },
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    // Let IntelliSense pick up Qt headers from the CMake configuration.
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    // So the app finds the Qt DLLs when launched from CMake Tools (▶ button).
+    "cmake.environment": {
+        "PATH": "C:/Qt/6.11.1/mingw_64/bin;C:/Qt/Tools/mingw1310_64/bin;${env:PATH}"
+    }
+}

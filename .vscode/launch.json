@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run LibraryApp",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/LibraryApp.exe",
+            "cwd": "${workspaceFolder}/build",
+            "stopAtEntry": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/Qt/Tools/mingw1310_64/bin/gdb.exe",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "C:/Qt/6.11.1/mingw_64/bin;C:/Qt/Tools/mingw1310_64/bin;${env:PATH}"
+                }
+            ],
+            "preLaunchTask": "CMake: build",
+            "visualizerFile": "c:\\Users\\Admin\\AppData\\Roaming\\Code\\User\\workspaceStorage\\403e36777b820f77c67f490b69d72b37\\tonka3000.qtvsctools\\qt.natvis.xml"
+        }
+    ]
+}
