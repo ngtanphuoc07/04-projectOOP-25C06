@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(foreach \\($c in 'qmake','cmake','g++','cl','mingw32-make','ninja'\\) { $cmd = Get-Command $c -ErrorAction SilentlyContinue; if \\($cmd\\) { \"$c => $\\($cmd.Source\\)\" } else { \"$c => not found\" } })"
+    ]
+  }
+}
